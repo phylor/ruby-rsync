@@ -16,7 +16,7 @@ module Rsync
     # The filename associated with this change.
     # @return [String]
     def filename
-      @data[12..-1]
+      @data[10..-1]
     end
 
     # Whether the file was changed or not.
